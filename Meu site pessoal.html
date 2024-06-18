@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Ciência da Computação</title>
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            font-size: 25px; /* Definindo o tamanho base da fonte para todo o corpo do documento */
+        }
+
+        header {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em; /* Ajustando o tamanho da fonte do título principal */
+        }
+
+        h2 {
+            font-size: 1.8em; /* Ajustando o tamanho da fonte dos subtítulos */
+        }
+
+        p {
+            font-size: 1.1em; /* Ajustando o tamanho da fonte dos parágrafos */
+            line-height: 1.6; /* Definindo o espaçamento entre linhas para melhor legibilidade */
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9em; /* Ajustando o tamanho da fonte do rodapé */
+            margin-top: 2em; /* Adicionando espaço superior ao rodapé */
+        }
+
+
+        ChatGPT
+        Para deixar as imagens do mesmo tamanho em cada seção do seu portfólio, você pode aplicar estilos CSS para definir uma largura fixa para as imagens dentro de cada <section>. Além disso, é recomendável utilizar uma classe para as imagens para aplicar estilos de forma mais eficiente. Aqui está como você pode modificar seu código:
+        
+        html
+        Copiar código
+        <!DOCTYPE html>
+        <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Portfólio - Ciência da Computação</title>
+            <style>
+                body {
+                    display: flex;
+                    min-height: 100vh;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0;
+                    font-family: Arial, sans-serif;
+                    font-size: 25px; /* Definindo o tamanho base da fonte para todo o corpo do documento */
+                }
+        
+                header {
+                    text-align: center;
+                }
+        
+                h1 {
+                    font-size: 2.5em; /* Ajustando o tamanho da fonte do título principal */
+                }
+        
+                h2 {
+                    font-size: 1.8em; /* Ajustando o tamanho da fonte dos subtítulos */
+                }
+        
+                p {
+                    font-size: 1.1em; /* Ajustando o tamanho da fonte dos parágrafos */
+                    line-height: 1.6; /* Definindo o espaçamento entre linhas para melhor legibilidade */
+                }
+        
+                footer {
+                    text-align: center;
+                    font-size: 0.9em; /* Ajustando o tamanho da fonte do rodapé */
+                    margin-top: 2em; /* Adicionando espaço superior ao rodapé */
+                }
+        
+                .imagem-section {
+                    width: 300px; /* Largura fixa para as imagens */
+                    height: auto; /* Altura automática para manter proporção */
+                    margin-top: 20px; /* Espaço superior entre cada imagem e o texto */
+                }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfólio - Ciência da Computação</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>-Filosofia-</h2>
+            <p>Em filosofia, estudei diferentes autores, dentre os principais estão: Bertrand Russell, Montaigne, Kant e Sartre.</p>
+            <p>Li diversos textos importantes que ajudam a compreender o mundo atual, alguns deles são: "O valor da filosofia", "Kant - O que é o Esclarecimento?" e o "Existencialismo é um humanismo".</p>
+            <p>Vi um documentário de suma importância, no qual o filósofo Montaigne discorre sobre o conceito de "Autoestima".</p>
+            <p>Analisando diferentes textos, pude ver através da filosofia como a inteligência Artificial está presente em nossas vidas, quais são seus avanços e riscos.</p>
+            <img src="filo1.jpg" alt="Imagem de Filosofia">
+            <img src="filo2.jpg" alt="Imagem de Filosofia">
+        </section>
+
+        <section>
+            <h2>-Fundamentos de Sistemas Ciberfísicos-</h2>
+            <p>Em CiberFísica vi diferentes bases numéricas, como convertê-las e suas operações, como: binário, octal e hexadecimal.</p>
+            <p>Em seguida, estudei sobre a máquina desenvolvida por Alan Turing na qual formou a estrutura básica para fundamentar a ciência da computação moderna e a contabilidade.</p>
+            <p>Compreendi os conceitos da arquitetura de Von Neumann, arquitetura que se caracteriza por se caracteriza pela possibilidade de uma máquina digital armazenar seus programas no mesmo espaço de memória que os dados, podendo assim manipular tais programas.</p>
+            <p>Estudei como funcionam os hardwares, sistemas, processadores, memórias e suas hierarquias.</p>
+            <p>Realizei um trabalho sobre o sistema operacional Windows Vista, abordando seus tipos de arquivos, como ele trabalha e lê as informações, quais são seus componentes e para que eles servem.</p>
+            <p>E por fim, realizei um trabalho envolvendo o simulador de microeletrônica Wokwi, onde desenvolvemos um sistema de prevenção e alerta de incêndio florestal.</p>
+            <img src="CF1.jpg" alt="Imagem de Ciber">
+            <img src="CF2.jpg" alt="Imagem de Ciber">
+            <img src="CF3.jpg" alt="Imagem de Ciber">
+            <img src="CF4.jpg" alt="Imagem de Ciber">
+        </section>
+
+        <section>
+            <h2>-Resolução de problemas com lógica matemática-</h2>
+            <p>A partir da matéria de lógica matemática, é possível analisar e verificar se uma afirmação é verdadeira ou falsa.</p>
+            <p>Na computação, ela ganha grande destaque já que auxilia na programação para compreender e encurtar códigos.</p>
+            <p>Ajuda a estruturar dados e permite até mesmo que a inteligência artificial seja mais apurada.</p>
+            <img src="LM1.jpg" alt="Imagem de Logica">
+        </section>
+
+        <section>
+            <h2>-Raciocínio Algorítmico-</h2>
+            <p>Em raciocínio algorítmico, aprendi a programar na prática, começando com Python.</p>
+            <p>Em um primeiro momento, tive uma breve introdução de como funciona a linguagem Python e alguns comandos básicos.</p>
+            <p>Em seguida, estudei operações relacionais e condições com o comando "If" e "Else.</p>
+            <p>Em um terceiro momento, compreendi a estrutura de repetição (loop), utilizando o comando "While".</p>
+            <p>Após realizar alguns trabalhos e listas de exercícios, desenvolvemos o jogo jokempo em Python.</p>
+            <p>Já mais avançado, estudei vetores e listas, que servem para armazenar uma coleção de itens dentro de uma única variável.</p>
+            <p>Por fim, estudei matrizes e funções e criamos mais um jogo em Python, dessa vez um batalha naval.</p>
+            <img src="RA1.jpg" alt="Imagem de Raciocinio">
+        </section>
+
+        <section>
+            <h2>-Experiência Criativa: Navegando na Computação-</h2>
+            <p>Em nosso primeiro projeto, desenvolvemos um jogo, o "Flashing Lights" pela plataforma online o Construct, onde fiquei responsável pelo design do game, desenhando personagens, inimigos, cenários, etc.</p>
+            <p>O jogo se passa em um mundo onde a música foi extinta pelos governantes, e a missão do personagem principal é derrotar os inimigos e devolver a alegria para as pessoas através da música. </p>
+            <p>Em nosso segundo projeto, desenvolvemos um aplicativo multimídia, nosso objetivo principal era desenvolver um aplicativo que fosse interessante e educacional.</p>
+            <p>Levando em consideração esses fatores, decidimos fazer um aplicativo que auxilie na aprendizagem da matemática básica do ensino fundamental.</p>
+            <p>O aplicativo foi desenvolvido com os conteúdos mais incompreendidos pelos jovens do ensino fundamental, sendo 7 temas organizados com explicações, macetes e imagens para uma fácil compreensão.</p>
+            <p>O aplicativo conta também com sua própria playlist de estudos, com excelentes aulas interativas.</p>
+            <p>Para que esse projeto se concretizasse, usamos a linguagem Java e programamos no processing.</p>
+            <p>Por fim, em nosso terceiro e último projeto, desenvolvemos um site para a ONG Crazy Cat Gang, que visa o resgate e cuidado de gatinhos em situação de abandono e maus-tratos.</p>
+            <p>O site conta com diversas abas, são elas: Sobre nós, adoção, Rifinhas, Instalações, Denúncias, Doações e o Blog.</p>
+            <p>O site visa atrair novos voluntários dedicados a fazer o bem, ajudando com doações, seja de alimento, medicamentos ou dinheiro. O site possui aba para cadastro de novos voluntários para caronas e lares temporários.</p>
+            <p>O blog do site conta com dicas de cuidados, relatos e curiosidades sobre os felinos.</p>
+            <p>Para a construção do design do site usamos a plataforma online "Figma" e na parte de programação usamos HTML, CSS, JavaScript, PHP entre outros.</p>
+            <img src="EC1.jpg" alt="Imagem de Exp Criativa">
+            <img src="EC2.jpg" alt="Imagem de Exp Criativa">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Victor Augusto Esmaniotto</p>
+    </footer>
+</body>
+</html>
